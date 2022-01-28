@@ -7,15 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2806493127A437CD00715642 /* productTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806493027A437CD00715642 /* productTableViewCell.swift */; };
+		2806493427A43A2B00715642 /* MarketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2806493327A43A2B00715642 /* MarketViewController.swift */; };
 		2855AD3E27A29294001E42A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AD3D27A29294001E42A1 /* AppDelegate.swift */; };
 		2855AD4027A29294001E42A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AD3F27A29294001E42A1 /* SceneDelegate.swift */; };
 		2855AD4227A29294001E42A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AD4127A29294001E42A1 /* ViewController.swift */; };
 		2855AD4527A29294001E42A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4327A29294001E42A1 /* Main.storyboard */; };
 		2855AD4727A29295001E42A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4627A29295001E42A1 /* Assets.xcassets */; };
 		2855AD4A27A29295001E42A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4827A29295001E42A1 /* LaunchScreen.storyboard */; };
+		2855AD5327A2C828001E42A1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AD5227A2C828001E42A1 /* HomeViewController.swift */; };
+		2855AD5727A2E6D2001E42A1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2855AD5627A2E6D2001E42A1 /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2806493027A437CD00715642 /* productTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = productTableViewCell.swift; sourceTree = "<group>"; };
+		2806493327A43A2B00715642 /* MarketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewController.swift; sourceTree = "<group>"; };
 		2855AD3A27A29294001E42A1 /* Swift_Proj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swift_Proj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2855AD3D27A29294001E42A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2855AD3F27A29294001E42A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,8 @@
 		2855AD4627A29295001E42A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2855AD4927A29295001E42A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2855AD4B27A29295001E42A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2855AD5227A2C828001E42A1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		2855AD5627A2E6D2001E42A1 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +67,11 @@
 				2855AD3D27A29294001E42A1 /* AppDelegate.swift */,
 				2855AD3F27A29294001E42A1 /* SceneDelegate.swift */,
 				2855AD4127A29294001E42A1 /* ViewController.swift */,
+				2855AD5627A2E6D2001E42A1 /* SettingsViewController.swift */,
+				2855AD5227A2C828001E42A1 /* HomeViewController.swift */,
 				2855AD4327A29294001E42A1 /* Main.storyboard */,
+				2806493327A43A2B00715642 /* MarketViewController.swift */,
+				2806493027A437CD00715642 /* productTableViewCell.swift */,
 				2855AD4627A29295001E42A1 /* Assets.xcassets */,
 				2855AD4827A29295001E42A1 /* LaunchScreen.storyboard */,
 				2855AD4B27A29295001E42A1 /* Info.plist */,
@@ -140,6 +152,10 @@
 				2855AD4227A29294001E42A1 /* ViewController.swift in Sources */,
 				2855AD3E27A29294001E42A1 /* AppDelegate.swift in Sources */,
 				2855AD4027A29294001E42A1 /* SceneDelegate.swift in Sources */,
+				2806493127A437CD00715642 /* productTableViewCell.swift in Sources */,
+				2855AD5727A2E6D2001E42A1 /* SettingsViewController.swift in Sources */,
+				2855AD5327A2C828001E42A1 /* HomeViewController.swift in Sources */,
+				2806493427A43A2B00715642 /* MarketViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
