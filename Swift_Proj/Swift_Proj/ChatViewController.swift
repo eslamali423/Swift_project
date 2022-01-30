@@ -12,6 +12,7 @@ class ChatViewController: UIViewController, UITableViewDelegate, UITableViewData
     var namesArray = [String]()
     
     
+    
     @IBAction func insertBtn(_ sender: Any) {
         if let text = contactName.text
         {

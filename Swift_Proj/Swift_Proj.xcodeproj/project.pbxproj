@@ -16,6 +16,8 @@
 		2855AD4527A29294001E42A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4327A29294001E42A1 /* Main.storyboard */; };
 		2855AD4727A29295001E42A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4627A29295001E42A1 /* Assets.xcassets */; };
 		2855AD4A27A29295001E42A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4827A29295001E42A1 /* LaunchScreen.storyboard */; };
+		2885BE5E27A6C12000594311 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE5D27A6C12000594311 /* TimelineViewController.swift */; };
+		2885BE6127A6C13000594311 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6027A6C13000594311 /* TimelineTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		2855AD4627A29295001E42A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2855AD4927A29295001E42A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2855AD4B27A29295001E42A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2885BE5D27A6C12000594311 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
+		2885BE6027A6C13000594311 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				2855AD3F27A29294001E42A1 /* SceneDelegate.swift */,
 				2855AD4127A29294001E42A1 /* ViewController.swift */,
 				2855AD4327A29294001E42A1 /* Main.storyboard */,
+				2885BE5D27A6C12000594311 /* TimelineViewController.swift */,
+				2885BE6027A6C13000594311 /* TimelineTableViewCell.swift */,
 				280115DF27A591B0004FC26C /* ChatViewController.swift */,
 				280115DC27A576F4004FC26C /* HomeTableViewCell.swift */,
 				280115D927A5760D004FC26C /* HomeViewController.swift */,
@@ -146,10 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2885BE6127A6C13000594311 /* TimelineTableViewCell.swift in Sources */,
 				2855AD4227A29294001E42A1 /* ViewController.swift in Sources */,
 				280115DD27A576F4004FC26C /* HomeTableViewCell.swift in Sources */,
 				2855AD3E27A29294001E42A1 /* AppDelegate.swift in Sources */,
 				2855AD4027A29294001E42A1 /* SceneDelegate.swift in Sources */,
+				2885BE5E27A6C12000594311 /* TimelineViewController.swift in Sources */,
 				280115E027A591B0004FC26C /* ChatViewController.swift in Sources */,
 				280115DA27A5760D004FC26C /* HomeViewController.swift in Sources */,
 			);
