@@ -23,6 +23,9 @@
 		2885BE6927A8115A00594311 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2885BE6727A8115A00594311 /* ProductViewController.xib */; };
 		2885BE6C27A8411100594311 /* HomeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6B27A8411100594311 /* HomeSliderViewController.swift */; };
 		2885BE6F27A8412B00594311 /* HomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6E27A8412B00594311 /* HomeSliderCollectionViewCell.swift */; };
+		28F52C6927A953FE0066720F /* StatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F52C6827A953FE0066720F /* StatusCollectionViewCell.swift */; };
+		28F52C6C27A954110066720F /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F52C6B27A954110066720F /* StatusTableViewCell.swift */; };
+		28F52C6F27A954250066720F /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F52C6E27A954250066720F /* StatusViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		2885BE6727A8115A00594311 /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
 		2885BE6B27A8411100594311 /* HomeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderViewController.swift; sourceTree = "<group>"; };
 		2885BE6E27A8412B00594311 /* HomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		28F52C6827A953FE0066720F /* StatusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		28F52C6B27A954110066720F /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
+		28F52C6E27A954250066720F /* StatusViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				2855AD3F27A29294001E42A1 /* SceneDelegate.swift */,
 				2855AD4127A29294001E42A1 /* ViewController.swift */,
 				2855AD4327A29294001E42A1 /* Main.storyboard */,
+				28F52C6827A953FE0066720F /* StatusCollectionViewCell.swift */,
+				28F52C6B27A954110066720F /* StatusTableViewCell.swift */,
+				28F52C6E27A954250066720F /* StatusViewController.swift */,
 				2885BE6B27A8411100594311 /* HomeSliderViewController.swift */,
 				2885BE6E27A8412B00594311 /* HomeSliderCollectionViewCell.swift */,
 				2885BE6327A8111300594311 /* ProductCollectionViewCell.swift */,
@@ -171,6 +180,9 @@
 				2885BE6127A6C13000594311 /* TimelineTableViewCell.swift in Sources */,
 				2855AD4227A29294001E42A1 /* ViewController.swift in Sources */,
 				280115DD27A576F4004FC26C /* HomeTableViewCell.swift in Sources */,
+				28F52C6C27A954110066720F /* StatusTableViewCell.swift in Sources */,
+				28F52C6F27A954250066720F /* StatusViewController.swift in Sources */,
+				28F52C6927A953FE0066720F /* StatusCollectionViewCell.swift in Sources */,
 				2855AD3E27A29294001E42A1 /* AppDelegate.swift in Sources */,
 				2885BE6F27A8412B00594311 /* HomeSliderCollectionViewCell.swift in Sources */,
 				2855AD4027A29294001E42A1 /* SceneDelegate.swift in Sources */,

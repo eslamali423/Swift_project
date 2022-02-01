@@ -9,13 +9,37 @@ import UIKit
 
 class HomeSliderViewController: UIViewController , UICollectionViewDelegate , UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
     var imgArray = [UIImage(named: "img_cairo")!,UIImage(named: "img_dubai")!,UIImage(named: "img_amman")!,UIImage(named: "img_riyadh")!]
-    
+    var timer : Timer?
+    var currentIndex = 0
     @IBOutlet weak var collectionVied: UICollectionView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        pageControl.numberOfPages = imgArray.count
+        startTimer()
     }
+    @IBOutlet weak var pageControl: UIPageControl!
+    
+    func startTimer (){
+        timer = Timer.scheduledTimer(timeInterval: 2.0, target: self, selector: #selector(nextIndex), userInfo: nil, repeats: true)
+    }
+    
+    @objc
+    func nextIndex (){
+        if currentIndex < imgArray.count - 1 {
+            currentIndex += 1
+            pageControl.currentPage
+                = currentIndex
+        }else {
+            currentIndex = 0
+            pageControl.currentPage = currentIndex
+        }
+      
+
+        collectionVied.scrollToItem(at: IndexPath(item: currentIndex, section: 0), at: .centeredHorizontally, animated: true)
+
+    }
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         imgArray.count
     }
@@ -27,7 +51,9 @@ class HomeSliderViewController: UIViewController , UICollectionViewDelegate , UI
     override func size(forChildContentContainer container: UIContentContainer, withParentContainerSize parentSize: CGSize) -> CGSize {
         CGSize(width: collectionVied.frame.width, height: collectionVied.frame.height)
     }
-
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
     /*
     // MARK: - Navigation
 
