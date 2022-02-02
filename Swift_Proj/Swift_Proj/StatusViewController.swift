@@ -10,13 +10,15 @@ import UIKit
 class StatusViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
 
     var countryArray = [Country]()
-    
     @IBOutlet weak var tableView: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
         tableView.delegate =  self
         tableView.dataSource =  self
+
+        title = "My Products"
+        
         
         countryArray.append(Country(name: "Cairo", Photo: [UIImage(named: "img_cairo")!,UIImage(named: "img_cairo")!,UIImage(named: "img_cairo")!,UIImage(named: "img_cairo")!,UIImage(named: "img_cairo")!]))
         

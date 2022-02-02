@@ -35,6 +35,7 @@ class StatusTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollect
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CVcell", for: indexPath) as! StatusCollectionViewCell
         let data = photoArray[indexPath.row]
         cell.img.image = data
+        
         return cell
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

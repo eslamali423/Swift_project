@@ -12,7 +12,6 @@ class ProductViewController: UIViewController, UICollectionViewDelegate, UIColle
     @IBOutlet weak var collectionView: UICollectionView!
     var namesArray = [Product]()
     
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         namesArray.append(Product(image: UIImage(named: "img_dubai")!, name: "Dubai" ))
