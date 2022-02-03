@@ -35,11 +35,17 @@ class StatusViewController: UIViewController, UITableViewDelegate,UITableViewDat
         let cell = tableView.dequeueReusableCell(withIdentifier: "TVcell", for: indexPath) as! StatusTableViewCell
         let data  =  countryArray[indexPath.row]
         cell.setupCell(title: data.name, photos: data.Photo)
+       
         return cell
     }
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 200
     }
+    
+//    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+//        let secondViewController =  self.storyboard?.instantiateViewController(identifier: "secondVC")
+//        navigationController?.pushViewController(secondViewController!, animated: true)
+//    }
     
 
 

@@ -9,6 +9,7 @@ import UIKit
 
 class StatusTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout{
 
+   
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -35,11 +36,20 @@ class StatusTableViewCell: UITableViewCell , UICollectionViewDelegate, UICollect
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "CVcell", for: indexPath) as! StatusCollectionViewCell
         let data = photoArray[indexPath.row]
         cell.img.image = data
-        
+
         return cell
     }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+     
+        
+    }
+    
+   
+    
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         CGSize(width: collectionView.frame.width * 0.3, height: collectionView.frame.width * 0.3)
     }
+    
+   
 
 }
