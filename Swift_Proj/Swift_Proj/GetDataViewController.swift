@@ -19,13 +19,17 @@ class GetDataViewController: UIViewController , UserDataDelegate{
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        
     }
+  
     
     
     func userdata(username: String, password: String) {
         self.username.text = username
         self.password.text = password
     }
+    
+    
 
     /*
     // MARK: - Navigation

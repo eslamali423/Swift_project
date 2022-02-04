@@ -24,9 +24,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func loginButton(_ sender: Any) {
         let secondVC = self.storyboard?.instantiateViewController(identifier: "getDataID") as! GetDataViewController
-        
         userdelegate?.userdata(username: usernameField.text!, password: passwordField.text!)
-    
+        
         secondVC.modalPresentationStyle = .fullScreen
         present(secondVC, animated: true, completion:nil)
        
