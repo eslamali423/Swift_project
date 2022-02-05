@@ -25,6 +25,7 @@
 		2885BE6927A8115A00594311 /* ProductViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2885BE6727A8115A00594311 /* ProductViewController.xib */; };
 		2885BE6C27A8411100594311 /* HomeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6B27A8411100594311 /* HomeSliderViewController.swift */; };
 		2885BE6F27A8412B00594311 /* HomeSliderCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6E27A8412B00594311 /* HomeSliderCollectionViewCell.swift */; };
+		2890D86D27AEE82200018878 /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2890D86C27AEE82200018878 /* MoviesViewController.swift */; };
 		28A7057727AB32AD00CB5007 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28A7057627AB32AD00CB5007 /* LoginViewController.swift */; };
 		28F52C6927A953FE0066720F /* StatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F52C6827A953FE0066720F /* StatusCollectionViewCell.swift */; };
 		28F52C6C27A954110066720F /* StatusTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28F52C6B27A954110066720F /* StatusTableViewCell.swift */; };
@@ -52,6 +53,7 @@
 		2885BE6727A8115A00594311 /* ProductViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductViewController.xib; sourceTree = "<group>"; };
 		2885BE6B27A8411100594311 /* HomeSliderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderViewController.swift; sourceTree = "<group>"; };
 		2885BE6E27A8412B00594311 /* HomeSliderCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeSliderCollectionViewCell.swift; sourceTree = "<group>"; };
+		2890D86C27AEE82200018878 /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		28A7057627AB32AD00CB5007 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		28F52C6827A953FE0066720F /* StatusCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusCollectionViewCell.swift; sourceTree = "<group>"; };
 		28F52C6B27A954110066720F /* StatusTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusTableViewCell.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				2855AD3F27A29294001E42A1 /* SceneDelegate.swift */,
 				2855AD4127A29294001E42A1 /* ViewController.swift */,
 				2855AD4327A29294001E42A1 /* Main.storyboard */,
+				2890D86C27AEE82200018878 /* MoviesViewController.swift */,
 				281578B227ABFD9E000778B5 /* GetDataViewController.swift */,
 				281578AF27ABD072000778B5 /* ContainerTabBarViewController.swift */,
 				28A7057627AB32AD00CB5007 /* LoginViewController.swift */,
@@ -199,6 +202,7 @@
 				2885BE5E27A6C12000594311 /* TimelineViewController.swift in Sources */,
 				280115E027A591B0004FC26C /* ChatViewController.swift in Sources */,
 				2885BE6C27A8411100594311 /* HomeSliderViewController.swift in Sources */,
+				2890D86D27AEE82200018878 /* MoviesViewController.swift in Sources */,
 				28A7057727AB32AD00CB5007 /* LoginViewController.swift in Sources */,
 				281578B027ABD072000778B5 /* ContainerTabBarViewController.swift in Sources */,
 				2885BE6427A8111300594311 /* ProductCollectionViewCell.swift in Sources */,
