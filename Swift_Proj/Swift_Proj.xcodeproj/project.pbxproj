@@ -18,6 +18,7 @@
 		2855AD4527A29294001E42A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4327A29294001E42A1 /* Main.storyboard */; };
 		2855AD4727A29295001E42A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4627A29295001E42A1 /* Assets.xcassets */; };
 		2855AD4A27A29295001E42A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2855AD4827A29295001E42A1 /* LaunchScreen.storyboard */; };
+		2875686A27B2D111003A3F07 /* ContainerPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2875686927B2D111003A3F07 /* ContainerPageViewController.swift */; };
 		2885BE5E27A6C12000594311 /* TimelineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE5D27A6C12000594311 /* TimelineViewController.swift */; };
 		2885BE6127A6C13000594311 /* TimelineTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6027A6C13000594311 /* TimelineTableViewCell.swift */; };
 		2885BE6427A8111300594311 /* ProductCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2885BE6327A8111300594311 /* ProductCollectionViewCell.swift */; };
@@ -47,6 +48,7 @@
 		2855AD4627A29295001E42A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2855AD4927A29295001E42A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2855AD4B27A29295001E42A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2875686927B2D111003A3F07 /* ContainerPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerPageViewController.swift; sourceTree = "<group>"; };
 		2885BE5D27A6C12000594311 /* TimelineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineViewController.swift; sourceTree = "<group>"; };
 		2885BE6027A6C13000594311 /* TimelineTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineTableViewCell.swift; sourceTree = "<group>"; };
 		2885BE6327A8111300594311 /* ProductCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				2855AD3F27A29294001E42A1 /* SceneDelegate.swift */,
 				2855AD4127A29294001E42A1 /* ViewController.swift */,
 				2855AD4327A29294001E42A1 /* Main.storyboard */,
+				2875686927B2D111003A3F07 /* ContainerPageViewController.swift */,
 				28908A9A27B02F0700C33065 /* movieViewController.swift */,
 				2890D86C27AEE82200018878 /* MoviesViewController.swift */,
 				281578B227ABFD9E000778B5 /* GetDataViewController.swift */,
@@ -212,6 +215,7 @@
 				2885BE6427A8111300594311 /* ProductCollectionViewCell.swift in Sources */,
 				2885BE6827A8115A00594311 /* ProductViewController.swift in Sources */,
 				280115DA27A5760D004FC26C /* HomeViewController.swift in Sources */,
+				2875686A27B2D111003A3F07 /* ContainerPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
